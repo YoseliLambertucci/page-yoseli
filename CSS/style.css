@@ -32,7 +32,9 @@ hr {
     
 }
 /*INDEX-HEADER-LOGO PARA LOS CINCO ARCHIVOS*/
-
+.bg-yoseli {
+    background-color: rgb(230, 230, 230);
+}
 
 /*ARCHIVO INDEX-PRESENTACION*/
 #presentacion {
@@ -107,7 +109,7 @@ main section h3 {
     display: flex;
     flex-wrap: wrap;
     padding: 2%;
-    border-bottom: white 5px solid;
+    border-bottom: aliceblue 5px solid;
 }
 
 .borde {
@@ -120,7 +122,7 @@ button {
     background-color: #e7dce1;
 }
 .body-servicios {
-    background-color: rgb(83, 83, 82);
+    background-color: rgb(27, 27, 27);
     color: aliceblue;
 }
 /*HTML- CONOCEME-*/
@@ -156,32 +158,23 @@ button {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    background-color: rgb(83, 83, 82);
-    color: aliceblue;
+    background-color: rgb(27, 27, 27);
+    color: aliceblue
 }
-
 
 /*INDEX-FOOTER-GENERAL PARA LOS CINCO ARCHIVOS*/
 footer {
-    background-color: rgb(234, 236, 234);
-    color: black;
-    text-align: center;
-    height: 2%;
-    padding: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(27, 27, 27);
+    color: aliceblue;
 }
 
 /*INDEX-FOOTER-NAVBAR PARA LOS CINCO ARCHIVOS*/
-footer section a {
-    text-decoration: none;
-    color: black;
-    padding: 6%;
-}
 
-footer section a:hover {
-    color: #ba95a7;
-    transition: 1s;
-    margin: 1%;
-}
 /* MEDIA QUERY PAR( LA PAGE SERVICIOS*/
 @media screen and (min-width: 250px) and (max-width: 768px) {
     .presentacion {
