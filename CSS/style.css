@@ -1,0 +1,236 @@
+/* con #se relaciona un id
+    con . se relaciona una class
+    *es para seleccionar todo el contenido
+    etiqueta para relacionar una etiqueta  
+    MEDIAS QUERYS--- 
+    TAMAÑOX MOBIL 320 PX -VERTICAL
+    480 PX HORIZONTAL
+    600PX TABLET PQUEÑA
+    768-1023 PX- TABLET GRAL  
+    1024-1200 PX NOTEBOOK
+*/
+/* ESTILOS GENERALES */
+body {
+    background-color: white(233, 233, 220);
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    color: black;
+    box-sizing: border-box;
+}
+
+hr {
+    color: black;
+    height: 1px;
+}
+
+
+
+/*INDEX-HEADER-GENERAL PARA LOS CINCO ARCHIVOS*/
+/*USE BOOTSTRAP- aca quiero sacar el flex-grow :1 en el navbar*/
+/* 
+.collapse .navbar-collapse .flexgrow { 
+    
+}
+/*INDEX-HEADER-LOGO PARA LOS CINCO ARCHIVOS*/
+
+
+/*ARCHIVO INDEX-PRESENTACION*/
+#presentacion {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5%;
+}
+
+/*ARCHIVO INDEX-PRESENTACION TEXTO*/
+.presentacion {
+    margin: 5%;
+    width: 50%;
+    padding: 2%;
+    background-color: aliceblue;
+    border-radius: 10px;
+    text-align: justify;
+    display: flex;
+
+}
+
+/*ARCHIVO INDEX-PRESENTACION-FOTO YOSELI*/
+
+/*ARCHIVO INDEX-SERVICIOS BOOTSTRAP*/
+
+/*ARCHIVO-CONTACTO*/
+
+/*HTML- CONTACTOS-TITULO*/
+.contacto h2 p {
+    color: black(155, 245, 155);
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    font-size: larger;
+}
+
+/*HTML- CONTACTOS-ESTILO DEL FORMULARIO*/
+form {
+    display: flex;
+    flex-direction: column;
+    background-image: url();
+    margin-right: 5%;
+    margin-left: 5%;
+    padding: 5px;
+    border: 3px solid black;
+    font-family: 'Quicksand', sans-serif;
+    font-size: medium;
+}
+
+.textarea {
+    width: 100%;
+}
+
+/* HTML-CONTACTOS-ESTILO DEL PARRAFO */
+
+/*HTML-SERVICIOS- CLASS SERVICIOS */
+main section h2 {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+main section h3 {
+    text-decoration: underline;
+}
+
+/*HTML SERVICIOS- CLASS DESCRIPCION SERVICIOS */
+.responsive-ss {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.descripcion-servicios {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2%;
+    border-bottom: white 5px solid;
+}
+
+.borde {
+    padding: 3%;
+    text-align: center;
+}
+
+/* HTML- SERVICIOS-BOTONES DE COMPRAR */
+button {
+    background-color: #e7dce1;
+}
+.body-servicios {
+    background-color: rgb(83, 83, 82);
+    color: aliceblue;
+}
+/*HTML- CONOCEME-*/
+.conoceme {
+    margin: 0% 10%;
+}
+
+/*HTML- CLIENTES-*/
+.titcliente {
+    text-decoration: underline;
+}
+
+.gralart {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 100%;
+}
+
+.imgclientes {
+    border-radius: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 20%;
+}
+
+.article {
+    border: rgb(122, 118, 118) 2px solid;
+    border-radius: 3%;
+    margin: 2%;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(83, 83, 82);
+    color: aliceblue;
+}
+
+
+/*INDEX-FOOTER-GENERAL PARA LOS CINCO ARCHIVOS*/
+footer {
+    background-color: rgb(234, 236, 234);
+    color: black;
+    text-align: center;
+    height: 2%;
+    padding: 1%;
+}
+
+/*INDEX-FOOTER-NAVBAR PARA LOS CINCO ARCHIVOS*/
+footer section a {
+    text-decoration: none;
+    color: black;
+    padding: 6%;
+}
+
+footer section a:hover {
+    color: #ba95a7;
+    transition: 1s;
+    margin: 1%;
+}
+/* MEDIA QUERY PAR( LA PAGE SERVICIOS*/
+@media screen and (min-width: 250px) and (max-width: 768px) {
+    .presentacion {
+        width: 100%;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1500px) {
+    
+    .titulo-monotributo {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+    }
+    
+    .titulo-contabilidad {
+        grid-column: 3 / 4;
+        grid-row: 1 / 2;
+    }
+    
+    .descripcion-servicios .cardtwo {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto;
+        gap: 3%;
+        align-content: center;
+    }
+    
+    .titulo-finanzas {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+    }
+    
+    .titulo-aplicaciones {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+    }
+    
+    .botton {
+        grid-row: 3 / 4;
+        font-style: italic;
+    }
+    .gralart {
+        margin-top: 3%;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto auto auto;
+        gap: 3%;
+        align-content: center;
+    }
+    .article {
+        padding: 3%;
+    }
+}

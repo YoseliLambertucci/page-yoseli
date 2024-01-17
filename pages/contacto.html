@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>yoselilambertucci/contacto</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <h1 class="navbar-brand" href="#">YOSELI LAMBERTUCCI</h1>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="../index.html">HOME</a>
+                        <a class="nav-link" href="conoceme.html"></a>
+                        <a class="nav-link" href="servicios.html">SERVICIOS</a>
+                        <a class="nav-link" href="conoceme.html">CONOCEME</a>
+                        <a class="nav-link" href="contacto.html">CONTACTAME</a>
+                        <a class="nav-link" href="clientes.html">PORTFOLIO</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <section id="contacto" class="contacto">
+            <div>
+                <H2 class="contacto-titulo">Hablemos</H2>
+            </div>
+            <!--ACA VAMOS A PONER EL FORMULARIO PARA CONTACTO-->
+            <form action="form.php" method="POST" class="formulario">
+                <label for="nombre" id="nombre">Nombre y Apellido</label>
+                <input type="text" name="Nombre" id="Nombre" placeholder="escribe tu nombre">
+                <label for="celular" id="celular">celular</label>
+                <input type="number" name="celular" id="celular" placeholder="escribe tu whatsapp">
+                <label for="email" id="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="ej xxx@gmail.com">
+                <label for="tema" id="tema">TEMA</label>
+                <select name="tema" id="tema">
+                    <option value="">Contadora</option>
+                    <option value="">Infomatica</option>
+                    <option value="">Cursos</option>
+                </select>
+                <P>Escribime:</P>
+                <textarea name="" id="" cols="30" rows="10" class="textarea"></textarea>
+                <input type="submit" value="enviar">
+            </form>
+        </section>
+    </main>
+    <hr>
+    <footer>
+        <P> Creado por YL</P>
+        <section id="footer">
+            <a href="./clientes.html">MIRA MIS TRABAJOS</a>
+            <a href="./conoceme.html">CONOCEME</a>
+            <a href="./contacto.html">HABLEMOS</a>
+            <a href="../index.html">HOME</a>
+            <a href="./servicios.html">SERVICIOS</a>
+        </section>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
