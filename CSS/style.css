@@ -58,7 +58,10 @@ hr {
 /*ARCHIVO INDEX-PRESENTACION-FOTO YOSELI*/
 
 /*ARCHIVO INDEX-SERVICIOS BOOTSTRAP*/
-
+.prestaciones {
+background-image: url(../image/Fondo-index-servicios.webp);
+padding: 5%;
+}
 /*ARCHIVO-CONTACTO*/
 
 /*HTML- CONTACTOS-TITULO*/
@@ -74,8 +77,8 @@ form {
     display: flex;
     flex-direction: column;
     background-image: url();
-    margin-right: 5%;
-    margin-left: 5%;
+    margin-right: 15%;
+    margin-left: 15%;
     padding: 5px;
     border: 3px solid black;
     font-family: 'Quicksand', sans-serif;
@@ -103,31 +106,22 @@ main section h3 {
 .responsive-ss {
     display: flex;
     flex-wrap: wrap;
+    margin: 2%;
 }
 
 .descripcion-servicios {
     display: flex;
     flex-wrap: wrap;
-    padding: 2%;
-    border-bottom: aliceblue 5px solid;
-}
-
-.borde {
-    padding: 3%;
-    text-align: center;
 }
 
 /* HTML- SERVICIOS-BOTONES DE COMPRAR */
-button {
-    background-color: #e7dce1;
-}
+
 .body-servicios {
-    background-color: rgb(27, 27, 27);
     color: aliceblue;
 }
 /*HTML- CONOCEME-*/
 .conoceme {
-    margin: 0% 10%;
+    margin: 0% 5%;
 }
 
 /*HTML- CLIENTES-*/
@@ -158,19 +152,21 @@ button {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    background-color: rgb(27, 27, 27);
-    color: aliceblue
+    background-color: rgb(230, 230, 230);
+    color: rgb(27, 27, 27);
 }
 
 /*INDEX-FOOTER-GENERAL PARA LOS CINCO ARCHIVOS*/
 footer {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     gap: 10%;
     justify-content: center;
     align-items: center;
-    background-color: rgb(27, 27, 27);
+    background-color: rgb(63, 62, 62);
     color: aliceblue;
+    height: 20%;
 }
 
 /*INDEX-FOOTER-NAVBAR PARA LOS CINCO ARCHIVOS*/
