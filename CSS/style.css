@@ -63,7 +63,9 @@ background-image: url(../image/Fondo-index-servicios.webp);
 padding: 5%;
 }
 /*ARCHIVO-CONTACTO*/
-
+.contacto-titulo {
+    text-decoration: underline;
+}
 /*HTML- CONTACTOS-TITULO*/
 .contacto h2 p {
     color: black(155, 245, 155);
@@ -89,8 +91,6 @@ form {
     width: 100%;
 }
 
-/* HTML-CONTACTOS-ESTILO DEL PARRAFO */
-
 /*HTML-SERVICIOS- CLASS SERVICIOS */
 main section h2 {
     display: flex;
@@ -102,7 +102,15 @@ main section h3 {
     text-decoration: underline;
 }
 
-/*HTML SERVICIOS- CLASS DESCRIPCION SERVICIOS */
+/*PAGE SERVICIOS */
+.pading {
+    padding: 3%;
+    margin-top: 3%;
+}
+.imagen-servicio {
+    width: 100%;
+    height: 10rem;
+}
 .responsive-ss {
     display: flex;
     flex-wrap: wrap;
@@ -114,21 +122,19 @@ main section h3 {
     flex-wrap: wrap;
 }
 
-/* HTML- SERVICIOS-BOTONES DE COMPRAR */
-
 .body-servicios {
     color: aliceblue;
 }
-/*HTML- CONOCEME-*/
+/*PAGE- CONOCEME-*/
 .conoceme {
     margin: 0% 5%;
 }
 
-/*HTML- CLIENTES-*/
+/*PAGE- CLIENTES-*/
 .titcliente {
     text-decoration: underline;
+    padding: 2%;
 }
-
 .gralart {
     display: flex;
     flex-wrap: wrap;
@@ -136,14 +142,12 @@ main section h3 {
     margin-right: 5%;
     height: 100%;
 }
-
 .imgclientes {
     border-radius: 100%;
     display: flex;
     flex-wrap: wrap;
     max-width: 20%;
 }
-
 .article {
     border: rgb(122, 118, 118) 2px solid;
     border-radius: 3%;
@@ -151,12 +155,12 @@ main section h3 {
     height: auto;
     width: 100%;
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
-    background-color: rgb(230, 230, 230);
     color: rgb(27, 27, 27);
 }
 
-/*INDEX-FOOTER-GENERAL PARA LOS CINCO ARCHIVOS*/
+/*-FOOTER-GENERAL PARA LOS CINCO ARCHIVOS*/
 footer {
     display: flex;
     flex-direction: column;
@@ -169,14 +173,13 @@ footer {
     height: 20%;
 }
 
-/*INDEX-FOOTER-NAVBAR PARA LOS CINCO ARCHIVOS*/
-
-/* MEDIA QUERY PAR( LA PAGE SERVICIOS*/
+/* MEDIA QUERY PARA ( LA PAGE HOME)*/
 @media screen and (min-width: 250px) and (max-width: 768px) {
     .presentacion {
         width: 100%;
     }
 }
+/* MEDIA QUERY PARA ( LA PAGE SERVICIOS)*/
 @media screen and (min-width: 768px) and (max-width: 1500px) {
     
     .titulo-monotributo {
@@ -207,10 +210,6 @@ footer {
         grid-row: 1 / 2;
     }
     
-    .botton {
-        grid-row: 3 / 4;
-        font-style: italic;
-    }
     .gralart {
         margin-top: 3%;
         display: grid;
