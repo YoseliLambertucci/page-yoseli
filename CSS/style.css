@@ -22,28 +22,25 @@ hr {
     color: black;
     height: 1px;
 }
-
-
-
 /*INDEX-HEADER-GENERAL PARA LOS CINCO ARCHIVOS*/
-/*USE BOOTSTRAP- aca quiero sacar el flex-grow :1 en el navbar*/
+/*USE BOOTSTRAP- aca quiero sacar el flex-grow :1 en el navbar QUE NO ME SALE*/
 /* 
 .collapse .navbar-collapse .flexgrow { 
     
 }
-/*INDEX-HEADER-LOGO PARA LOS CINCO ARCHIVOS*/
+/*PAGE-INDEX- HEADER PARA LOS CINCO ARCHIVOS*/
 .bg-yoseli {
     background-color: rgb(230, 230, 230);
 }
 
-/*ARCHIVO INDEX-PRESENTACION*/
+/*PAGE- INDEX-PRESENTACION*/
 #presentacion {
     display: flex;
     flex-wrap: wrap;
     margin: 5%;
 }
 
-/*ARCHIVO INDEX-PRESENTACION TEXTO*/
+/*PAGE INDEX-PRESENTACION TEXTO*/
 .presentacion {
     margin: 5%;
     width: 50%;
@@ -57,12 +54,13 @@ hr {
 
 /*ARCHIVO INDEX-PRESENTACION-FOTO YOSELI*/
 
-/*ARCHIVO INDEX-SERVICIOS BOOTSTRAP*/
+/*PAGE- INDEX-SERVICIOS BOOTSTRAP*/
 .prestaciones {
-background-image: url(../image/Fondo-index-servicios.webp);
-padding: 5%;
+    background-image: url(../image/Fondo-index-servicios.webp);
+    padding: 5%;
 }
-/*ARCHIVO-CONTACTO*/
+
+/*PAGE-CONTACTO*/
 .tarjeta-personal {
     display: flex;
     flex-direction: column;
@@ -74,10 +72,12 @@ padding: 5%;
     border-radius: 3%;
     padding: 3%;
 }
+
+/*PAGE- CONTACTOS-TITULO*/
 .contacto-titulo {
     text-decoration: underline;
 }
-/*HTML- CONTACTOS-TITULO*/
+
 .contacto h2 p {
     color: black(155, 245, 155);
     font-family: 'Quicksand', sans-serif;
@@ -101,7 +101,7 @@ form {
     width: 100%;
 }
 
-/*HTML-SERVICIOS- CLASS SERVICIOS */
+/*Page-SERVICIOS- CLASS SERVICIOS */
 main section h2 {
     display: flex;
     justify-items: center;
@@ -117,10 +117,12 @@ main section h3 {
     padding: 3%;
     margin-top: 3%;
 }
+
 .imagen-servicio {
     width: 100%;
     height: 10rem;
 }
+
 .responsive-ss {
     display: flex;
     flex-wrap: wrap;
@@ -135,6 +137,7 @@ main section h3 {
 .body-servicios {
     color: aliceblue;
 }
+
 /*PAGE- CONOCEME-*/
 .conoceme {
     margin: 0% 5%;
@@ -145,6 +148,7 @@ main section h3 {
     text-decoration: underline;
     padding: 2%;
 }
+
 .gralart {
     display: flex;
     flex-wrap: wrap;
@@ -152,12 +156,14 @@ main section h3 {
     margin-right: 5%;
     height: 100%;
 }
+
 .imgclientes {
     border-radius: 100%;
     display: flex;
     flex-wrap: wrap;
     max-width: 20%;
 }
+
 .article {
     border: rgb(122, 118, 118) 2px solid;
     border-radius: 3%;
@@ -188,42 +194,18 @@ footer {
     .presentacion {
         width: 100%;
     }
-    form { /* media query para el formulario*/
+
+    form {
+        /* media query para el formulario*/
         margin-left: 1%;
         margin-right: 1%;
     }
 }
+
 /* MEDIA QUERY PARA ( LA PAGE SERVICIOS)*/
 @media screen and (min-width: 768px) and (max-width: 1500px) {
-    
-    .titulo-monotributo {
-        grid-column: 2 / 3;
-        grid-row: 1 / 2;
-    }
-    
-    .titulo-contabilidad {
-        grid-column: 3 / 4;
-        grid-row: 1 / 2;
-    }
-    
-    .descripcion-servicios .cardtwo {
-        display: grid;
-        grid-template-columns: auto auto;
-        grid-template-rows: auto auto auto;
-        gap: 3%;
-        align-content: center;
-    }
-    
-    .titulo-finanzas {
-        grid-column: 2 / 3;
-        grid-row: 1 / 2;
-    }
-    
-    .titulo-aplicaciones {
-        grid-column: 2 / 3;
-        grid-row: 1 / 2;
-    }
-    
+
+    /* page-clientes*/
     .gralart {
         margin-top: 3%;
         display: grid;
@@ -232,6 +214,8 @@ footer {
         gap: 3%;
         align-content: center;
     }
+
+    /* page-servicios*/
     .article {
         padding: 3%;
     }
