@@ -63,6 +63,17 @@ background-image: url(../image/Fondo-index-servicios.webp);
 padding: 5%;
 }
 /*ARCHIVO-CONTACTO*/
+.tarjeta-personal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: larger;
+    font-weight: bolder;
+    border-radius: 3%;
+    padding: 3%;
+}
 .contacto-titulo {
     text-decoration: underline;
 }
@@ -78,7 +89,6 @@ padding: 5%;
 form {
     display: flex;
     flex-direction: column;
-    background-image: url();
     margin-right: 15%;
     margin-left: 15%;
     padding: 5px;
@@ -177,6 +187,10 @@ footer {
 @media screen and (min-width: 250px) and (max-width: 768px) {
     .presentacion {
         width: 100%;
+    }
+    form { /* media query para el formulario*/
+        margin-left: 1%;
+        margin-right: 1%;
     }
 }
 /* MEDIA QUERY PARA ( LA PAGE SERVICIOS)*/
