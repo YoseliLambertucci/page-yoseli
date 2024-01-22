@@ -23,12 +23,13 @@ hr {
     height: 1px;
 }
 /*INDEX-HEADER-GENERAL PARA LOS CINCO ARCHIVOS*/
-/*USE BOOTSTRAP- aca quiero sacar el flex-grow :1 en el navbar QUE NO ME SALE*/
-/* 
-.collapse .navbar-collapse .flexgrow { 
-    
+.navbar-collapse { 
+    flex-basis: 100%;
+    justify-content: end;
 }
+
 /*PAGE-INDEX- HEADER PARA LOS CINCO ARCHIVOS*/
+
 .bg-yoseli {
     background-color: rgb(230, 230, 230);
 }
@@ -54,7 +55,7 @@ hr {
 
 /*ARCHIVO INDEX-PRESENTACION-FOTO YOSELI*/
 
-/*PAGE- INDEX-SERVICIOS BOOTSTRAP*/
+/*PAGE- INDEX-SERVICIOS BOOTSTRAP- imagen que esta detras de los servicios*/
 .prestaciones {
     background-image: url(../image/Fondo-index-servicios.webp);
     padding: 5%;
@@ -127,6 +128,7 @@ main section h3 {
     display: flex;
     flex-wrap: wrap;
     margin: 2%;
+    margin-top: 5%;
 }
 
 .descripcion-servicios {
@@ -152,8 +154,7 @@ main section h3 {
 .gralart {
     display: flex;
     flex-wrap: wrap;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin: 5%;
     height: 100%;
 }
 
@@ -204,7 +205,7 @@ footer {
 
 /* MEDIA QUERY PARA ( LA PAGE SERVICIOS)*/
 @media screen and (min-width: 768px) and (max-width: 1500px) {
-
+    
     /* page-clientes*/
     .gralart {
         margin-top: 3%;
@@ -219,4 +220,5 @@ footer {
     .article {
         padding: 3%;
     }
+    
 }
