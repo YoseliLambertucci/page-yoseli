@@ -1,0 +1,21 @@
+/*PAGE- INDEX-PRESENTACION*/
+.main-index {
+    #presentacion {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 5%;
+        .presentacion{
+            margin: 5%;
+            width: 50%;
+            padding: 2%;
+            background-color: aliceblue;
+            border-radius: 10px;
+            text-align: justify;
+            display: flex;
+        }
+    }
+    .prestaciones {
+        background-image: url(../image/Fondo-index-servicios.webp);
+        padding: 5%;
+    }
+}

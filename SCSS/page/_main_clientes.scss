@@ -1,0 +1,19 @@
+/*PAGE- CLIENTES-*/
+.main-clientes {
+
+    .gralart {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 5%;
+        height: 100%;
+        .pading{
+            margin: 3%;
+        }
+        div {
+            .titcliente {
+                text-decoration: underline;
+                padding: 2%;
+            }
+        }
+    }
+}

@@ -1,0 +1,55 @@
+/*PAGE-SERVICOS*/
+.body-servicios {
+    color: aliceblue;
+
+    .responsive-ss {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 2%;
+        margin-top: 5%;
+
+        .gralart {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            margin: 1%;
+            height: 100%;
+
+            .pading {
+                padding: 3%;
+                margin-top: 3%;
+                &:hover{
+                    zoom: 103%;
+                }
+            }
+
+            .article {
+                border: rgb(122, 118, 118) 2px solid;
+                border-radius: 3%;
+                margin: 2%;
+                height: auto;
+                width: 20rem;
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                color: rgb(27, 27, 27);
+
+                .imagen-servicio {
+                    width: 100%;
+                    height: 10rem;
+                }
+            }
+        }
+    }
+}
+main section h2 {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+main section h3 {
+    text-decoration: underline;
+}
