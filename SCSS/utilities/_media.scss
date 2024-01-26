@@ -1,5 +1,5 @@
 /* MEDIA QUERY PARA ( LA PAGE HOME)*/
-@media screen and (min-width: 250px) and (max-width: 768px) {
+@media screen and (min-width: 200px) and (max-width: 768px) {
     .main-index {
         #presentacion {
             .presentacion {
@@ -7,6 +7,7 @@
             }
         }
     }
+
     .main-contacto {
         .contacto {
             div {
@@ -21,27 +22,63 @@
 }
 
 /* MEDIA QUERY PARA ( LA PAGE SERVICIOS)*/
-@media screen and (min-width: 768px) and (max-width: 1500px) {
+@media screen and (min-width: 761px) and (max-width: 1500px) {
 
     /* page-clientes*/
-    .main-clientes{
+    .main-clientes {
         .gralart {
             margin-top: 3%;
             gap: 3%;
             align-content: center;
         }
     }
-    .responsive-ss{
-        .gralart {
-            margin-top: 3%;
-            display: grid;
-            grid-template-columns: auto auto auto;
-            grid-template-rows: auto auto auto auto;
-            gap: 3%;
-            align-content: center;
-            .article {
-                padding: 3%;
+}
+@media screen and (min-width: 740px) and (max-width: 1077px) {
+
+    .body-servicios {
+
+        .responsive-ss {
+            justify-content: center;
+            margin-top: 0%;
+            margin-bottom: 20%;
+            .gralart {
+                display: grid;
+                grid-template-rows: auto auto auto auto;
+                grid-template-columns: auto auto;
+                justify-content: center;
+                gap: 3%;
+                height: 100%;
+
+                .article {
+                    padding: 3%;
+                }
             }
         }
+
     }
+}
+@media screen and (min-width: 1078px) and (max-width: 1500px) {
+
+    .body-servicios {
+        padding: 0%;
+        margin: 0%;
+        .responsive-ss {
+            justify-content: center;
+            margin-top: 0%;
+            margin-bottom: 10%;
+            .gralart {
+                display: grid;
+                grid-template-rows: auto auto auto auto;
+                grid-template-columns: auto auto auto;
+                justify-content: center;
+                gap: 3%;
+                height: 100%;
+
+                .article {
+                    padding: 3%;
+                }
+            }
+        }
+
     }
+}
