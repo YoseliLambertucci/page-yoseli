@@ -20,7 +20,8 @@
             .pading {
                 padding: 3%;
                 margin-top: 3%;
-                &:hover{
+
+                &:hover {
                     zoom: 103%;
                 }
             }
@@ -44,6 +45,7 @@
         }
     }
 }
+
 main section h2 {
     display: flex;
     justify-items: center;

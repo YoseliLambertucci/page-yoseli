@@ -33,6 +33,7 @@
         }
     }
 }
+
 @media screen and (min-width: 740px) and (max-width: 1077px) {
 
     .body-servicios {
@@ -41,6 +42,7 @@
             justify-content: center;
             margin-top: 0%;
             margin-bottom: 20%;
+
             .gralart {
                 display: grid;
                 grid-template-rows: auto auto auto auto;
@@ -57,15 +59,18 @@
 
     }
 }
+
 @media screen and (min-width: 1078px) and (max-width: 1500px) {
 
     .body-servicios {
         padding: 0%;
         margin: 0%;
+
         .responsive-ss {
             justify-content: center;
             margin-top: 0%;
             margin-bottom: 10%;
+
             .gralart {
                 display: grid;
                 grid-template-rows: auto auto auto auto;

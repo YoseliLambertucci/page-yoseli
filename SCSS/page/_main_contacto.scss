@@ -6,7 +6,8 @@
                 text-decoration: underline;
             }
         }
-        div {
+
+        .div-formulairo {
             form {
                 display: flex;
                 flex-direction: column;
@@ -16,11 +17,13 @@
                 border: 3px solid black;
                 font-family: 'Quicksand', sans-serif;
                 font-size: medium;
+
                 .textarea {
                     width: 100%;
                 }
             }
         }
+
         .tarjeta-personal {
             display: flex;
             flex-direction: column;
@@ -30,6 +33,7 @@
             font-weight: bolder;
             border-radius: 3%;
             padding: 3%;
+
             p {
                 color: black(155, 245, 155);
                 font-family: 'Quicksand', sans-serif;
