@@ -157,14 +157,14 @@ header .bg-yoseli .navbar-collapse .navbar-nav {
 
 footer {
   display: flex;
-  flex-direction: column;
   flex-wrap: wrap;
-  gap: 10%;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10%;
   background-color: rgb(63, 62, 62);
   color: aliceblue;
-  height: 20%;
+  height: 15%;
 }
 
 /* MEDIA QUERY PARA ( LA PAGE HOME)*/
