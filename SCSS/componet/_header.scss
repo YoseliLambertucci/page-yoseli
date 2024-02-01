@@ -1,18 +1,12 @@
 header {
     .bg-yoseli {
         background-color: rgb(230, 230, 230);
-
         .navbar-collapse {
             .navbar-nav {
-                ul {
-                    li {
-                        a {
-                            flex-basis: 100%;
-                            justify-content: center;
-                        }
-                    }
-                }
-
+                
+                    flex-basis: 100%;
+                    justify-content: end;
+                
             }
         }
     }

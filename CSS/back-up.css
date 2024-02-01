@@ -1,0 +1,223 @@
+/* ESTILOS GENERALES */
+body {
+    background-color: white(233, 233, 220);
+    font-family: "Quicksand", sans-serif;
+    margin: 0;
+    color: black;
+    box-sizing: border-box;
+  }
+  
+  hr {
+    color: black;
+    height: 1px;
+  }
+  
+  header .bg-yoseli {
+    background-color: rgb(230, 230, 230);
+  }
+  header .bg-yoseli .navbar-collapse .navbar-nav {
+    flex-basis: 100%;
+    justify-content: end;
+  }
+  
+  footer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(63, 62, 62);
+    color: aliceblue;
+    height: 20%;
+  }
+  
+  /*PAGE- INDEX-PRESENTACION*/
+  .main-index #presentacion {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5%;
+  }
+  .main-index #presentacion .presentacion {
+    margin: 5%;
+    width: 50%;
+    padding: 2%;
+    background-color: aliceblue;
+    border-radius: 10px;
+    text-align: justify;
+    display: flex;
+  }
+  .main-index .prestaciones {
+    background-image: url(../image/Fondo-index-servicios.webp);
+    padding: 5%;
+  }
+  
+  /*PAGE- CLIENTES-*/
+  .main-clientes .gralart {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5%;
+    height: 100%;
+  }
+  .main-clientes .gralart .pading {
+    margin: 3%;
+  }
+  .main-clientes .gralart div .titcliente {
+    text-decoration: underline;
+    padding: 2%;
+  }
+  
+  /*PAGE- CONOCEME-*/
+  .conoceme {
+    margin: 0% 5%;
+  }
+  
+  /*PAGE-CONTACTO*/
+  .main-contacto .contacto div .contacto-titulo {
+    text-decoration: underline;
+  }
+  .main-contacto .contacto .div-formulario form {
+    display: flex;
+    flex-direction: column;
+    margin-right: 15%;
+    margin-left: 15%;
+    padding: 5px;
+    border: 3px solid black;
+    font-family: "Quicksand", sans-serif;
+    font-size: medium;
+  }
+  .main-contacto .contacto .div-formulario form .textarea {
+    width: 100%;
+  }
+  .main-contacto .contacto .tarjeta-personal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    font-weight: bolder;
+    border-radius: 3%;
+    padding: 3%;
+  }
+  .main-contacto .contacto .tarjeta-personal p {
+    color: black(155, 245, 155);
+    font-family: "Quicksand", sans-serif;
+    text-align: center;
+    font-size: larger;
+  }
+  
+  /*PAGE-SERVICOS*/
+  .body-servicios {
+    color: aliceblue;
+  }
+  .body-servicios .responsive-ss {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2%;
+    margin-top: 5%;
+  }
+  .body-servicios .responsive-ss .gralart {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 1%;
+    height: 100%;
+  }
+  .body-servicios .responsive-ss .gralart .pading {
+    padding: 3%;
+    margin-top: 3%;
+  }
+  .body-servicios .responsive-ss .gralart .pading:hover {
+    zoom: 103%;
+  }
+  .body-servicios .responsive-ss .gralart .article {
+    border: rgb(122, 118, 118) 2px solid;
+    border-radius: 3%;
+    margin: 2%;
+    height: 100%;
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: rgb(27, 27, 27);
+  }
+  .body-servicios .responsive-ss .gralart .article .imagen-servicio {
+    width: 100%;
+    height: 10rem;
+  }
+  
+  main section h2 {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+  }
+  
+  main section h3 {
+    text-decoration: underline;
+  }
+  
+  /* MEDIA QUERY PARA ( LA PAGE HOME)*/
+  @media screen and (min-width: 200px) and (max-width: 768px) {
+    .main-index #presentacion .presentacion {
+      width: 100%;
+    }
+    .main-contacto .contacto div form {
+      /* media query para el formulario*/
+      margin-left: 1%;
+      margin-right: 1%;
+    }
+  }
+  /* MEDIA QUERY PARA ( LA PAGE SERVICIOS)*/
+  @media screen and (min-width: 761px) and (max-width: 1500px) {
+    /* page-clientes*/
+    .main-clientes .gralart {
+      margin-top: 3%;
+      gap: 3%;
+      align-content: center;
+    }
+  }
+  @media screen and (min-width: 740px) and (max-width: 1077px) {
+    .body-servicios .responsive-ss {
+      justify-content: center;
+      margin-top: 0%;
+      margin-bottom: 20%;
+    }
+    .body-servicios .responsive-ss .gralart {
+      display: grid;
+      grid-template-rows: auto auto auto auto;
+      grid-template-columns: auto auto;
+      justify-content: center;
+      gap: 3%;
+      height: 100%;
+    }
+    .body-servicios .responsive-ss .gralart .article {
+      padding: 3%;
+    }
+  }
+  @media screen and (min-width: 1078px) and (max-width: 1500px) {
+    .body-servicios {
+      padding: 0%;
+      margin: 0%;
+    }
+    .body-servicios .responsive-ss {
+      justify-content: center;
+      margin-top: 0%;
+      margin-bottom: 10%;
+    }
+    .body-servicios .responsive-ss .gralart {
+      display: grid;
+      grid-template-rows: auto auto auto auto;
+      grid-template-columns: auto auto auto;
+      justify-content: center;
+      gap: 3%;
+      height: 100%;
+    }
+    .body-servicios .responsive-ss .gralart .article {
+      padding: 3%;
+    }
+  }
+  
+  /*# sourceMappingURL=main.scss.map */
+  
