@@ -12,6 +12,15 @@ hr {
   height: 1px;
 }
 
+.body-servicios .responsive-ss, .main-clientes .gralart, .main-index #presentacion {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main-contacto .contacto {
+  background-image: linear-gradient(to button, red, yellow);
+}
+
 header .bg-yoseli {
   background-color: rgb(230, 230, 230);
 }
@@ -20,22 +29,8 @@ header .bg-yoseli .navbar-collapse .navbar-nav {
   justify-content: end;
 }
 
-footer {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  gap: 10%;
-  justify-content: center;
-  align-items: center;
-  background-color: rgb(63, 62, 62);
-  color: aliceblue;
-  height: 20%;
-}
-
 /*PAGE- INDEX-PRESENTACION*/
 .main-index #presentacion {
-  display: flex;
-  flex-wrap: wrap;
   margin: 5%;
 }
 .main-index #presentacion .presentacion {
@@ -47,6 +42,9 @@ footer {
   display: flex;
   text-align: justify;
 }
+.main-index #presentacion .foto-profesional .index-foto-yoseli {
+  box-shadow: 11px 15px 18px 11px rgb(180, 180, 180);
+}
 .main-index .prestaciones {
   background-image: url(../image/Fondo-index-servicios.webp);
   padding: 5%;
@@ -54,12 +52,11 @@ footer {
 
 /*PAGE- CLIENTES-*/
 .main-clientes .gralart {
-  display: flex;
-  flex-wrap: wrap;
   margin: 5%;
   height: 100%;
 }
 .main-clientes .gralart .pading {
+  box-shadow: 11px 15px 18px 11px rgb(223, 213, 235);
   margin: 3%;
   padding: 0.5%;
 }
@@ -112,8 +109,6 @@ footer {
   color: aliceblue;
 }
 .body-servicios .responsive-ss {
-  display: flex;
-  flex-wrap: wrap;
   margin: 2%;
   margin-top: 5%;
 }
@@ -134,14 +129,17 @@ footer {
   zoom: 103%;
 }
 .body-servicios .responsive-ss .gralart .article {
+  box-shadow: 11px 15px 18px 11px rgb(223, 213, 235);
   border: rgb(122, 118, 118) 2px solid;
   border-radius: 3%;
   margin: 2%;
   height: 100%;
   width: 20rem;
   display: flex;
-  flex-direction: column;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: top;
+  flex-direction: column;
   color: rgb(27, 27, 27);
 }
 .body-servicios .responsive-ss .gralart .article h2 {
@@ -157,12 +155,24 @@ footer {
   height: 10rem;
 }
 
+footer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 10%;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(63, 62, 62);
+  color: aliceblue;
+  height: 20%;
+}
+
 /* MEDIA QUERY PARA ( LA PAGE HOME)*/
 @media screen and (min-width: 200px) and (max-width: 768px) {
   .main-index #presentacion .presentacion {
     width: 100%;
   }
-  .main-contacto .contacto div form {
+  .main-contacto .contacto .div-formulario form {
     /* media query para el formulario*/
     margin-left: 1%;
     margin-right: 1%;

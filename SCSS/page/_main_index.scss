@@ -1,8 +1,7 @@
 /*PAGE- INDEX-PRESENTACION*/
 .main-index {
     #presentacion {
-        display: flex;
-        flex-wrap: wrap;
+        @extend %flex-wrap;
         margin: 5%;
 
         .presentacion {
@@ -13,7 +12,14 @@
             border-radius: 10px;
             display: flex;
             text-align: justify;
-            
+
+        }
+
+        .foto-profesional {
+            .index-foto-yoseli {
+                box-shadow: 11px 15px 18px 11px rgb(180, 180, 180);
+            }
+
         }
     }
 

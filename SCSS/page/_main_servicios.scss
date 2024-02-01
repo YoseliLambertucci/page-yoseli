@@ -3,8 +3,7 @@
     color: aliceblue;
 
     .responsive-ss {
-        display: flex;
-        flex-wrap: wrap;
+        @extend %flex-wrap;
         margin: 2%;
         margin-top: 5%;
 
@@ -23,14 +22,13 @@
             }
 
             .article {
+                box-shadow: 11px 15px 18px 11px rgb(223, 213, 235);
                 border: rgb(122, 118, 118) 2px solid;
                 border-radius: 3%;
                 margin: 2%;
                 height: 100%;
                 width: 20rem;
-                display: flex;
-                flex-direction: column;
-                flex-wrap: wrap;
+                @include flex(wrap, center, top, column);
                 color: rgb(27, 27, 27);
                 h2{
                     @include flex(wrap, star, center, column);

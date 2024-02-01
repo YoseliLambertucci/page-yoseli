@@ -2,12 +2,12 @@
 .main-clientes {
 
     .gralart {
-        display: flex;
-        flex-wrap: wrap;
+        @extend %flex-wrap;
         margin: 5%;
         height: 100%;
 
         .pading {
+            box-shadow: 11px 15px 18px 11px rgb(223, 213, 235);
             margin: 3%;
             padding: 0.5%;
         }
