@@ -9,11 +9,7 @@
         margin-top: 5%;
 
         .gralart {
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            justify-content: center;
-            align-items: center;
+            @include flex(wrap, center,center, row);
             margin: 1%;
             height: 100%;
 
@@ -36,22 +32,16 @@
                 flex-direction: column;
                 flex-wrap: wrap;
                 color: rgb(27, 27, 27);
-
+                h2{
+                    @include flex(wrap, star, center, column);
+                    text-decoration: underline;
+                }
                 .imagen-servicio {
                     width: 100%;
                     height: 10rem;
+                    
                 }
             }
         }
     }
-}
-
-main section h2 {
-    display: flex;
-    justify-items: center;
-    align-items: center;
-}
-
-main section h3 {
-    text-decoration: underline;
 }

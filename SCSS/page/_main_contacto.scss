@@ -25,11 +25,7 @@
         }
 
         .tarjeta-personal {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            flex-wrap: wrap;
-            align-items: center;
+            @include flex(wrap, center, center, column);
             font-weight: bolder;
             border-radius: 3%;
             padding: 3%;
