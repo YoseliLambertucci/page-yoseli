@@ -3,8 +3,17 @@ header {
         background-color: rgb(230, 230, 230);
 
         .navbar-collapse {
-            flex-basis: 100%;
-            justify-content: end;
+            .navbar-nav {
+                ul {
+                    li {
+                        a {
+                            flex-basis: 100%;
+                            justify-content: center;
+                        }
+                    }
+                }
+
+            }
         }
     }
 }
