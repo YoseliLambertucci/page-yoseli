@@ -1,7 +1,7 @@
 footer {
     @include flex(wrap, center, center, column);
     gap: 10%;
-    background-color: rgb(63, 62, 62);
+    background-color: $bg-footer;
     color: aliceblue;
     height: 15%;
 }

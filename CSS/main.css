@@ -1,6 +1,6 @@
 /* ESTILOS GENERALES */
 body {
-  background-color: white(233, 233, 220);
+  background-color: white;
   font-family: "Quicksand", sans-serif;
   margin: 0;
   color: black;
@@ -15,10 +15,6 @@ hr {
 .body-servicios .responsive-ss, .main-clientes .gralart, .main-index #presentacion {
   display: flex;
   flex-wrap: wrap;
-}
-
-.main-contacto .contacto {
-  background-image: linear-gradient(to button, red, yellow);
 }
 
 header .bg-yoseli {
@@ -56,7 +52,7 @@ header .bg-yoseli .navbar-collapse .navbar-nav {
   height: 100%;
 }
 .main-clientes .gralart .pading {
-  box-shadow: 11px 15px 18px 11px rgb(223, 213, 235);
+  box-shadow: 10px 10px 20px 11px rgb(180, 180, 180);
   margin: 3%;
   padding: 0.5%;
 }
