@@ -179,6 +179,18 @@ header .bg-yoseli .navbar-collapse .navbar-nav {
 .body-servicios .responsive-ss .gralart .pading:hover {
   zoom: 103%;
 }
+.body-servicios .responsive-ss .gralart .pading .boton-curso {
+  background-color: rgb(250, 219, 223);
+  animation-name: efecto-uno;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  animation-duration: 2s;
+}
+.body-servicios .responsive-ss .gralart .pading .boton-curso a {
+  color: black;
+  text-decoration: none;
+  font-size: larger;
+}
 .body-servicios .responsive-ss .gralart .article {
   box-shadow: 11px 15px 15px 10px rgb(112, 88, 92);
   border: rgb(122, 118, 118) 2px solid;
@@ -213,7 +225,7 @@ footer {
   justify-content: center;
   flex-direction: column;
   gap: 10%;
-  background-color: rgb(63, 62, 62);
+  background-color: rgb(63, 63, 63);
   color: aliceblue;
   height: 15%;
 }
