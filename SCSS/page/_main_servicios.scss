@@ -1,7 +1,6 @@
 /*PAGE-SERVICOS*/
 .body-servicios {
-    color: aliceblue;
-
+    color: rgb(233, 184, 246);
     .responsive-ss {
         @extend %flex-wrap;
         margin: 2%;
@@ -11,7 +10,6 @@
             @include flex(wrap, center,center, row);
             margin: 1%;
             height: 100%;
-
             .pading {
                 padding: 3%;
                 margin-top: 3%;

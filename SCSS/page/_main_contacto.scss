@@ -22,6 +22,7 @@
                 }
                 .boton{
                     font-size: larger;
+                    background-color: $bg-rosado;
                     animation-name: efecto-uno;
                     animation-iteration-count: infinite;
                     animation-timing-function: ease-in;
@@ -41,6 +42,12 @@
                 font-family: 'Quicksand', sans-serif;
                 text-align: center;
                 font-size: larger;
+                a{
+                    color: black;
+                    text-decoration: none;}
+                    a:hover{
+                        color: blue;
+                    }
             }
         }
     }
