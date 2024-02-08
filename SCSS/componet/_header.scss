@@ -1,15 +1,17 @@
 header {
-    .borde-none{
+    .borde-none {
         border: none;
     }
+
     .bg-yoseli {
         background-color: $bg-rosado;
+
         .navbar-collapse {
             .navbar-nav {
-                
-                    flex-basis: 100%;
-                    justify-content: end;
-                
+
+                flex-basis: 100%;
+                justify-content: end;
+
             }
         }
     }

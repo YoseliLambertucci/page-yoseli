@@ -3,6 +3,7 @@
     #presentacion {
         @extend %flex-wrap;
         margin: 5%;
+
         .presentacion {
             margin: 5%;
             width: 50%;
@@ -16,7 +17,7 @@
 
         .foto-profesional {
             .index-foto-yoseli {
-                box-shadow: 0 2px 4px  $box-shadow-color;
+                box-shadow: 3px 3px 4px $box-shadow-color;
             }
 
         }
@@ -25,19 +26,21 @@
     .prestaciones {
         background-image: url(../image/Fondo-index-servicios.webp);
         padding: 5%;
-        .row{
-            .col{
-                .card-title{
+
+        .row {
+            .col {
+                .card-title {
                     text-align: center;
                     font-weight: bolder;
                 }
-                .card-footer{
-                    
+
+                .card-footer {
+
                     background-color: rgba(221, 191, 195, 1.00);
                     text-align: center;
                     font-weight: bolder;
                 }
-                
+
             }
         }
 

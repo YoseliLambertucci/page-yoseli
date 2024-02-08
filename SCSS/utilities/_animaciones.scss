@@ -1,22 +1,25 @@
-
 @keyframes efecto-uno {
-    0% {
-        opacity: 0;
-        transform: translateY(-20px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-@keyframes efecto-dos {
-    0% {
-      color: $color-primario;
-    }
-    50% {
-      color: $color-secundario;
-    }
-    100% {
-      color: $color-primario;
-    }
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
   }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes efecto-dos {
+  0% {
+    color: $color-primario;
+  }
+
+  50% {
+    color: $color-secundario;
+  }
+
+  100% {
+    color: $color-primario;
+  }
+}

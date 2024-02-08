@@ -1,3 +1,6 @@
+/* Azul vibrante */
+/* Rojo coral */
+/* Fondo claro */
 .body-servicios .responsive-ss, .main-clientes .gralart, .main-index #presentacion {
   display: flex;
   flex-wrap: wrap;
@@ -6,34 +9,40 @@
 @keyframes efecto-uno {
   0% {
     opacity: 0;
+    transform: translateY(-20px);
   }
   100% {
     opacity: 1;
+    transform: translateY(0);
   }
 }
 @keyframes efecto-dos {
   0% {
-    color: black;
+    color: #2a70b1;
   }
   50% {
-    color: rgb(250, 219, 223);
+    color: #e74c3c;
   }
   100% {
-    color: blue;
+    color: #2a70b1;
   }
 }
 /* ESTILOS GENERALES */
 body {
   font-family: "Quicksand", sans-serif;
   margin: 0;
-  color: black;
+  color: #333;
+  background-color: var(--color-fondo);
   box-sizing: border-box;
-  justify-content: center;
 }
 
-hr {
-  color: black;
-  height: 1px;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
 }
 
 header .borde-none {
@@ -61,7 +70,7 @@ header .bg-yoseli .navbar-collapse .navbar-nav {
   text-align: justify;
 }
 .main-index #presentacion .foto-profesional .index-foto-yoseli {
-  box-shadow: 11px 15px 18px 11px rgb(112, 88, 92);
+  box-shadow: 3px 3px 4px rgba(15, 15, 15, 0.1);
 }
 .main-index .prestaciones {
   background-image: url(../image/Fondo-index-servicios.webp);
@@ -83,10 +92,10 @@ header .bg-yoseli .navbar-collapse .navbar-nav {
 }
 .main-clientes .gralart {
   margin: 5%;
-  height: 100%;
+  height: 99%;
 }
 .main-clientes .gralart .pading {
-  box-shadow: 10px 10px 20px 11px rgb(112, 88, 92);
+  box-shadow: 5px 5px 4px rgba(15, 15, 15, 0.1);
   margin: 3%;
   padding: 0.5%;
 }
@@ -180,19 +189,18 @@ header .bg-yoseli .navbar-collapse .navbar-nav {
   zoom: 103%;
 }
 .body-servicios .responsive-ss .gralart .pading .boton-curso {
-  background-color: rgb(250, 219, 223);
-  animation-name: efecto-uno;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in;
-  animation-duration: 2s;
+  padding: 10px 20px;
+  background-color: rgb(63, 63, 63);
+  border: none;
+  border-radius: 5px;
 }
 .body-servicios .responsive-ss .gralart .pading .boton-curso a {
-  color: black;
+  color: white;
   text-decoration: none;
   font-size: larger;
 }
 .body-servicios .responsive-ss .gralart .article {
-  box-shadow: 11px 15px 15px 10px rgb(112, 88, 92);
+  box-shadow: 3px 3px 3px 3px rgba(15, 15, 15, 0.1);
   border: rgb(122, 118, 118) 2px solid;
   border-radius: 3%;
   margin: 2%;
