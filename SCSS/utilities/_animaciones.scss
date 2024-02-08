@@ -2,19 +2,21 @@
 @keyframes efecto-uno {
     0% {
         opacity: 0;
+        transform: translateY(-20px);
     }
     100% {
         opacity: 1;
+        transform: translateY(0);
     }
 }
 @keyframes efecto-dos {
     0% {
-        color: black;
+      color: $color-primario;
     }
     50% {
-        color: $bg-rosado;
+      color: $color-secundario;
     }
-    100%{
-        color: blue;
+    100% {
+      color: $color-primario;
     }
-}
+  }

@@ -18,11 +18,13 @@
                     zoom: 103%;
                 }
                 .boton-curso{
-                    background-color: $bg-rosado;
-                    animation-name: efecto-uno;
-                    animation-iteration-count: infinite;
-                    animation-timing-function: ease-in;
-                    animation-duration: 2s;
+                    padding: 10px 20px;
+                    background-color: $color-primario;
+                    color: #fff;
+                    border: none;
+                    border-radius: 5px;
+                    cursor: pointer;
+                    transition: background-color 0.3s ease;
                     a{
                     color: black;
                     text-decoration: none;
@@ -32,7 +34,7 @@
             }
 
             .article {
-                box-shadow: 11px 15px 15px 10px $box-shadow-color;
+                box-shadow: 2px 2px 2px 1px  $box-shadow-color;
                 border: rgb(122, 118, 118) 2px solid;
                 border-radius: 3%;
                 margin: 2%;
