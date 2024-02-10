@@ -1,29 +1,36 @@
 /*PAGE- INDEX-PRESENTACION*/
 .main-index {
     #presentacion {
+        
+        background-color: $bg-gris-oscuro;
+        border: 2px solid black;
+        display: flex;
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+
         .presentacion {
             color: $color-fondo;
-            margin: 5%;
-            width: 50%;
-            padding: 2%;
-            background-color: $bg-gris-oscuro;
-            border-radius: 10px;
-            display: flex;
+            padding: 3%;
+            align-items: center;
             text-align: justify;
+            margin-top: 5%;
+            width: 50%;
 
         }
 
         .foto-profesional {
             .index-foto-yoseli {
-                margin: 5%;
+                margin-top: 10%;
+                height: 80%;
+                width: 300px;
                 box-shadow: 3px 3px 4px $box-shadow-color;
-                height: 75%;
             }
 
         }
     }
 
-    .prestaciones {
+    .servicios {
+        margin: 0%;
         background-image: url(../image/fondo-index-.jfif);
         padding: 5%;
 

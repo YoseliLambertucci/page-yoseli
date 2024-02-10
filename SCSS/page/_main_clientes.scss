@@ -2,6 +2,7 @@
 .main-clientes {
     justify-content: center;
     background-color: $bg-gris-oscuro;
+    border: 2px solid black;
     
     .gralart {
         @extend %flex-wrap;

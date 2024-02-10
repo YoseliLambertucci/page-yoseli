@@ -1,10 +1,11 @@
 /*PAGE- CONOCEME-*/
 .conoceme {
-    margin: 0% 5%;
-    background-color: $bg-gris-oscuro;
+    margin: 2% 5%;
     color: $color-fondo;
-
+    
+    
     .card {
+        border: 2px solid black;
         .row {
             .col-md-4 {
                 .alto {

@@ -76,30 +76,37 @@ header .bg-yoseli .navbar-collapse .navbar-nav li a {
 }
 
 /*PAGE- INDEX-PRESENTACION*/
+.main-index #presentacion {
+  background-color: rgb(63, 63, 63);
+  border: 2px solid black;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+}
 .main-index #presentacion .presentacion {
   color: #f9f9f9;
-  margin: 5%;
-  width: 50%;
-  padding: 2%;
-  background-color: rgb(63, 63, 63);
-  border-radius: 10px;
-  display: flex;
+  padding: 3%;
+  align-items: center;
   text-align: justify;
+  margin-top: 5%;
+  width: 50%;
 }
 .main-index #presentacion .foto-profesional .index-foto-yoseli {
-  margin: 5%;
+  margin-top: 10%;
+  height: 80%;
+  width: 300px;
   box-shadow: 3px 3px 4px rgba(15, 15, 15, 0.1);
-  height: 75%;
 }
-.main-index .prestaciones {
+.main-index .servicios {
+  margin: 0%;
   background-image: url(../image/fondo-index-.jfif);
   padding: 5%;
 }
-.main-index .prestaciones .row .col .card-title {
+.main-index .servicios .row .col .card-title {
   text-align: center;
   font-weight: bolder;
 }
-.main-index .prestaciones .row .col .card-footer {
+.main-index .servicios .row .col .card-footer {
   background-color: rgb(221, 191, 195);
   text-align: center;
   font-weight: bolder;
@@ -109,6 +116,7 @@ header .bg-yoseli .navbar-collapse .navbar-nav li a {
 .main-clientes {
   justify-content: center;
   background-color: rgb(63, 63, 63);
+  border: 2px solid black;
 }
 .main-clientes .gralart {
   height: 100%;
@@ -125,9 +133,11 @@ header .bg-yoseli .navbar-collapse .navbar-nav li a {
 
 /*PAGE- CONOCEME-*/
 .conoceme {
-  margin: 0% 5%;
-  background-color: rgb(63, 63, 63);
+  margin: 2% 5%;
   color: #f9f9f9;
+}
+.conoceme .card {
+  border: 2px solid black;
 }
 .conoceme .card .row .col-md-4 .alto {
   height: auto;
@@ -143,6 +153,9 @@ header .bg-yoseli .navbar-collapse .navbar-nav li a {
 }
 
 /*PAGE-CONTACTO*/
+.main-contacto {
+  border: 2px solid black;
+}
 .main-contacto .contacto div .contacto-titulo {
   text-decoration: underline;
 }
@@ -214,12 +227,12 @@ header .bg-yoseli .navbar-collapse .navbar-nav li a {
 }
 .responsive-ss .gralart .pading .boton-curso {
   padding: 10px 20px;
-  background-color: rgb(63, 63, 63);
-  border: none;
+  background-color: rgb(250, 219, 223);
+  border: 2px solid black;
   border-radius: 5px;
 }
 .responsive-ss .gralart .pading .boton-curso a {
-  color: white;
+  color: #070707;
   text-decoration: none;
   font-size: larger;
 }
