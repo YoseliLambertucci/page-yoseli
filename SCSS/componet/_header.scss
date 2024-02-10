@@ -2,15 +2,34 @@ header {
     .borde-none {
         border: none;
     }
+    .colort-blanco{
+        color: $color-fondo;
+    }
 
     .bg-yoseli {
-        background-color: $bg-rosado;
-
+        h1{
+            color: $bg-gris-oscuro;;
+        }
+        background-color: $bg-gris-oscuro;
+        display: flex;
+        align-items: end;
+        .img-logo{
+            width: 10%;
+            height: 10%;
+            border-radius: 50%;
+            border: 2px solid white;
+        }
         .navbar-collapse {
             .navbar-nav {
-
                 flex-basis: 100%;
                 justify-content: end;
+                gap: 2%;
+                font-weight: bolder;
+                li{
+                    a{
+                        color: $color-fondo;
+                    }
+                }
 
             }
         }

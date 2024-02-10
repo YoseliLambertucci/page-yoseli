@@ -1,5 +1,19 @@
 /* MEDIA QUERY PARA ( LA PAGE HOME)*/
 @media screen and (min-width: 200px) and (max-width: 768px) {
+    header{
+        .bg-yoseli{
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            .img-logo{
+                width: 25%;
+                height: 25%;
+                border-radius: 50%;
+                border: 2px solid white;
+            }
+        }
+    }
     .main-index {
         #presentacion {
             .presentacion {
@@ -30,6 +44,7 @@
     }
 }
 
+
 /* MEDIA QUERY PARA ( LA PAGE SERVICIOS)*/
 @media screen and (min-width: 761px) and (max-width: 1500px) {
 
@@ -46,10 +61,8 @@
     }
 }
 
-@media screen and (min-width: 740px) and (max-width: 1077px) {
 
-    .body-servicios {
-        justify-content: center;
+@media screen and (min-width: 740px) and (max-width: 1077px) {
 
         .responsive-ss {
             justify-content: center;
@@ -71,14 +84,10 @@
         }
 
     }
-}
+
 
 @media screen and (min-width: 1078px) and (max-width: 1500px) {
 
-    .body-servicios {
-        padding: 0%;
-        margin: 0%;
-        justify-content: center;
 
         .responsive-ss {
             justify-content: center;
@@ -100,4 +109,3 @@
         }
 
     }
-}
