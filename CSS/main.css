@@ -1,7 +1,7 @@
 /* Azul vibrante */
 /* Rojo coral */
 /* Fondo claro */
-.body-servicios .responsive-ss, .main-clientes .gralart, .main-index #presentacion {
+.responsive-ss, .main-clientes .gralart {
   display: flex;
   flex-wrap: wrap;
 }
@@ -48,32 +48,51 @@ h6 {
 header .borde-none {
   border: none;
 }
+header .colort-blanco {
+  color: #f9f9f9;
+}
 header .bg-yoseli {
-  background-color: rgb(250, 219, 223);
+  background-color: rgb(63, 63, 63);
+  display: flex;
+  align-items: end;
+}
+header .bg-yoseli h1 {
+  color: rgb(63, 63, 63);
+}
+header .bg-yoseli .img-logo {
+  width: 10%;
+  height: 10%;
+  border-radius: 50%;
+  border: 2px solid white;
 }
 header .bg-yoseli .navbar-collapse .navbar-nav {
   flex-basis: 100%;
   justify-content: end;
+  gap: 2%;
+  font-weight: bolder;
+}
+header .bg-yoseli .navbar-collapse .navbar-nav li a {
+  color: #f9f9f9;
 }
 
 /*PAGE- INDEX-PRESENTACION*/
-.main-index #presentacion {
-  margin: 5%;
-}
 .main-index #presentacion .presentacion {
+  color: #f9f9f9;
   margin: 5%;
   width: 50%;
   padding: 2%;
-  background-color: rgb(221, 191, 195);
+  background-color: rgb(63, 63, 63);
   border-radius: 10px;
   display: flex;
   text-align: justify;
 }
 .main-index #presentacion .foto-profesional .index-foto-yoseli {
+  margin: 5%;
   box-shadow: 3px 3px 4px rgba(15, 15, 15, 0.1);
+  height: 75%;
 }
 .main-index .prestaciones {
-  background-image: url(../image/Fondo-index-servicios.webp);
+  background-image: url(../image/fondo-index-.jfif);
   padding: 5%;
 }
 .main-index .prestaciones .row .col .card-title {
@@ -89,10 +108,10 @@ header .bg-yoseli .navbar-collapse .navbar-nav {
 /*PAGE- CLIENTES-*/
 .main-clientes {
   justify-content: center;
+  background-color: rgb(63, 63, 63);
 }
 .main-clientes .gralart {
-  margin: 5%;
-  height: 99%;
+  height: 100%;
 }
 .main-clientes .gralart .pading {
   box-shadow: 5px 5px 4px rgba(15, 15, 15, 0.1);
@@ -107,6 +126,14 @@ header .bg-yoseli .navbar-collapse .navbar-nav {
 /*PAGE- CONOCEME-*/
 .conoceme {
   margin: 0% 5%;
+  background-color: rgb(63, 63, 63);
+  color: #f9f9f9;
+}
+.conoceme .card .row .col-md-4 .alto {
+  height: auto;
+}
+.conoceme .card .row .col-md-8 .card-body .card-text {
+  text-align: justify;
 }
 .conoceme a {
   animation-name: efecto-dos;
@@ -165,14 +192,11 @@ header .bg-yoseli .navbar-collapse .navbar-nav {
 }
 
 /*PAGE-SERVICOS*/
-.body-servicios {
-  color: rgb(233, 184, 246);
-}
-.body-servicios .responsive-ss {
+.responsive-ss {
   margin: 2%;
   margin-top: 5%;
 }
-.body-servicios .responsive-ss .gralart {
+.responsive-ss .gralart {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -181,25 +205,25 @@ header .bg-yoseli .navbar-collapse .navbar-nav {
   margin: 1%;
   height: 100%;
 }
-.body-servicios .responsive-ss .gralart .pading {
+.responsive-ss .gralart .pading {
   padding: 3%;
   margin-top: 3%;
 }
-.body-servicios .responsive-ss .gralart .pading:hover {
+.responsive-ss .gralart .pading:hover {
   zoom: 103%;
 }
-.body-servicios .responsive-ss .gralart .pading .boton-curso {
+.responsive-ss .gralart .pading .boton-curso {
   padding: 10px 20px;
   background-color: rgb(63, 63, 63);
   border: none;
   border-radius: 5px;
 }
-.body-servicios .responsive-ss .gralart .pading .boton-curso a {
+.responsive-ss .gralart .pading .boton-curso a {
   color: white;
   text-decoration: none;
   font-size: larger;
 }
-.body-servicios .responsive-ss .gralart .article {
+.responsive-ss .gralart .article {
   box-shadow: 3px 3px 3px 3px rgba(15, 15, 15, 0.1);
   border: rgb(122, 118, 118) 2px solid;
   border-radius: 3%;
@@ -213,7 +237,7 @@ header .bg-yoseli .navbar-collapse .navbar-nav {
   flex-direction: column;
   color: rgb(27, 27, 27);
 }
-.body-servicios .responsive-ss .gralart .article h2 {
+.responsive-ss .gralart .article h2 {
   display: flex;
   flex-wrap: wrap;
   align-items: star;
@@ -221,7 +245,7 @@ header .bg-yoseli .navbar-collapse .navbar-nav {
   flex-direction: column;
   text-decoration: underline;
 }
-.body-servicios .responsive-ss .gralart .article .imagen-servicio {
+.responsive-ss .gralart .article .imagen-servicio {
   width: 100%;
   height: 10rem;
 }
@@ -240,6 +264,17 @@ footer {
 
 /* MEDIA QUERY PARA ( LA PAGE HOME)*/
 @media screen and (min-width: 200px) and (max-width: 768px) {
+  header .bg-yoseli {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  header .bg-yoseli .img-logo {
+    width: 25%;
+    height: 25%;
+    border-radius: 50%;
+    border: 2px solid white;
+  }
   .main-index #presentacion .presentacion {
     width: 100%;
   }
@@ -270,15 +305,12 @@ footer {
   }
 }
 @media screen and (min-width: 740px) and (max-width: 1077px) {
-  .body-servicios {
-    justify-content: center;
-  }
-  .body-servicios .responsive-ss {
+  .responsive-ss {
     justify-content: center;
     margin-top: 0%;
     margin-bottom: 20%;
   }
-  .body-servicios .responsive-ss .gralart {
+  .responsive-ss .gralart {
     display: grid;
     grid-template-rows: auto auto auto auto;
     grid-template-columns: auto auto;
@@ -286,22 +318,17 @@ footer {
     gap: 3%;
     height: 100%;
   }
-  .body-servicios .responsive-ss .gralart .article {
+  .responsive-ss .gralart .article {
     padding: 3%;
   }
 }
 @media screen and (min-width: 1078px) and (max-width: 1500px) {
-  .body-servicios {
-    padding: 0%;
-    margin: 0%;
-    justify-content: center;
-  }
-  .body-servicios .responsive-ss {
+  .responsive-ss {
     justify-content: center;
     margin-top: 0%;
     margin-bottom: 10%;
   }
-  .body-servicios .responsive-ss .gralart {
+  .responsive-ss .gralart {
     display: grid;
     grid-template-rows: auto auto auto auto;
     grid-template-columns: auto auto auto;
@@ -309,7 +336,7 @@ footer {
     gap: 3%;
     height: 100%;
   }
-  .body-servicios .responsive-ss .gralart .article {
+  .responsive-ss .gralart .article {
     padding: 3%;
   }
 }

@@ -1,6 +1,28 @@
 /*PAGE- CONOCEME-*/
 .conoceme {
     margin: 0% 5%;
+    background-color: $bg-gris-oscuro;
+    color: $color-fondo;
+
+    .card {
+        .row {
+            .col-md-4 {
+                .alto {
+                    height: auto;
+                }
+            }
+
+            .col-md-8 {
+                .card-body {
+                    .card-text {
+                        text-align: justify;
+                    }
+                }
+            }
+
+        }
+
+    }
 
     a {
         animation-name: efecto-dos;

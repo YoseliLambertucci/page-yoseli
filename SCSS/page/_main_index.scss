@@ -1,14 +1,12 @@
 /*PAGE- INDEX-PRESENTACION*/
 .main-index {
     #presentacion {
-        @extend %flex-wrap;
-        margin: 5%;
-
         .presentacion {
+            color: $color-fondo;
             margin: 5%;
             width: 50%;
             padding: 2%;
-            background-color: $bg-rosado-oscuro;
+            background-color: $bg-gris-oscuro;
             border-radius: 10px;
             display: flex;
             text-align: justify;
@@ -17,14 +15,16 @@
 
         .foto-profesional {
             .index-foto-yoseli {
+                margin: 5%;
                 box-shadow: 3px 3px 4px $box-shadow-color;
+                height: 75%;
             }
 
         }
     }
 
     .prestaciones {
-        background-image: url(../image/Fondo-index-servicios.webp);
+        background-image: url(../image/fondo-index-.jfif);
         padding: 5%;
 
         .row {

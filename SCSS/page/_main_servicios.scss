@@ -1,61 +1,58 @@
 /*PAGE-SERVICOS*/
-.body-servicios {
-    color: rgb(233, 184, 246);
 
-    .responsive-ss {
-        @extend %flex-wrap;
-        margin: 2%;
-        margin-top: 5%;
+.responsive-ss {
+    @extend %flex-wrap;
+    margin: 2%;
+    margin-top: 5%;
 
-        .gralart {
-            @include flex(wrap, center, center, row);
-            margin: 1%;
+    .gralart {
+        @include flex(wrap, center, center, row);
+        margin: 1%;
+        height: 100%;
+
+        .pading {
+            padding: 3%;
+            margin-top: 3%;
+
+            &:hover {
+                zoom: 103%;
+            }
+
+            .boton-curso {
+                padding: 10px 20px;
+                background-color: $bg-gris-oscuro;
+                border: none;
+                border-radius: 5px;
+
+                a {
+                    color: #ffff;
+                    text-decoration: none;
+                    font-size: larger;
+                }
+            }
+        }
+
+        .article {
+            box-shadow: 3px 3px 3px 3px $box-shadow-color;
+            border: rgb(122, 118, 118) 2px solid;
+            border-radius: 3%;
+            margin: 2%;
             height: 100%;
+            width: 20rem;
+            @include flex(wrap, center, top, column);
+            color: rgb(27, 27, 27);
 
-            .pading {
-                padding: 3%;
-                margin-top: 3%;
-
-                &:hover {
-                    zoom: 103%;
-                }
-
-                .boton-curso {
-                    padding: 10px 20px;
-                    background-color: $bg-gris-oscuro;
-                    border: none;
-                    border-radius: 5px;
-
-                    a {
-                        color: #ffff;
-                        text-decoration: none;
-                        font-size: larger;
-                    }
-                }
+            h2 {
+                @include flex(wrap, star, center, column);
+                text-decoration: underline;
             }
 
-            .article {
-                box-shadow: 3px 3px 3px 3px $box-shadow-color;
-                border: rgb(122, 118, 118) 2px solid;
-                border-radius: 3%;
-                margin: 2%;
-                height: 100%;
-                width: 20rem;
-                @include flex(wrap, center, top, column);
-                color: rgb(27, 27, 27);
-
-                h2 {
-                    @include flex(wrap, star, center, column);
-                    text-decoration: underline;
-                }
-
-                .imagen-servicio {
-                    width: 100%;
-                    height: 10rem;
-
-                }
+            .imagen-servicio {
+                width: 100%;
+                height: 10rem;
 
             }
+
         }
     }
 }

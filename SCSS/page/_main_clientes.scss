@@ -1,11 +1,11 @@
 /*PAGE- CLIENTES-*/
 .main-clientes {
     justify-content: center;
-
+    background-color: $bg-gris-oscuro;
+    
     .gralart {
         @extend %flex-wrap;
-        margin: 5%;
-        height: 99%;
+        height: 100%;
 
         .pading {
             box-shadow: 5px 5px 4px $box-shadow-color;
