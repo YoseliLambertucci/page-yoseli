@@ -97,6 +97,7 @@ header .bg-yoseli .navbar-collapse .navbar-nav li a {
   height: 80%;
   width: 300px;
   box-shadow: 3px 3px 4px rgba(15, 15, 15, 0.1);
+  border-radius: 50%;
 }
 .main-index .servicios {
   margin: 0%;
