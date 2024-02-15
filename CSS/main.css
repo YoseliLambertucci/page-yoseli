@@ -222,7 +222,7 @@ header .bg-yoseli .navbar-collapse .navbar-nav li a {
   padding: 3%;
 }
 .main-contacto .contacto .tarjeta-personal p {
-  color: black(155, 245, 155);
+  color: black;
   font-family: "Quicksand", sans-serif;
   text-align: center;
   font-size: larger;
@@ -276,7 +276,7 @@ header .bg-yoseli .navbar-collapse .navbar-nav li a {
   width: 20rem;
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: justify;
   justify-content: top;
   flex-direction: column;
   color: rgb(27, 27, 27);
@@ -284,7 +284,7 @@ header .bg-yoseli .navbar-collapse .navbar-nav li a {
 .responsive-ss .gralart .article h2 {
   display: flex;
   flex-wrap: wrap;
-  align-items: star;
+  align-items: justify;
   justify-content: center;
   flex-direction: column;
   text-decoration: underline;

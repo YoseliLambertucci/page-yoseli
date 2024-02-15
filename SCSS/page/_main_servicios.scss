@@ -25,7 +25,7 @@
                 border-radius: 5px;
 
                 a {
-                    color: #070707;
+                    color: $ppal-color;
                     text-decoration: none;
                     font-size: larger;
                 }
@@ -39,11 +39,11 @@
             margin: 2%;
             height: 100%;
             width: 20rem;
-            @include flex(wrap, center, top, column);
+            @include flex(wrap, justify, top, column);
             color: rgb(27, 27, 27);
 
             h2 {
-                @include flex(wrap, star, center, column);
+                @include flex(wrap, justify, center, column);
                 text-decoration: underline;
             }
 
