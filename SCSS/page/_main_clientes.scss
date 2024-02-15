@@ -1,9 +1,9 @@
 /*PAGE- CLIENTES-*/
 .main-clientes {
     justify-content: center;
-    background-color: $bg-gris-oscuro;
+    background-color: $bg-fondo;
     border: 2px solid black;
-    
+
     .gralart {
         @extend %flex-wrap;
         height: 100%;
@@ -12,6 +12,14 @@
             box-shadow: 5px 5px 4px $box-shadow-color;
             margin: 3%;
             padding: 0.5%;
+            &:hover{
+                animation-name: efecto-tres;
+                animation-iteration-count: infinite;
+                animation-timing-function: ease-in;
+                animation-duration: 5s;
+                animation-delay: 1s;
+            }
+            
         }
 
         div {

@@ -2,14 +2,14 @@
 .main-index {
     #presentacion {
         
-        background-color: $bg-gris-oscuro;
+        background-color: $bg-fondo;
         border: 2px solid black;
         display: flex;
         flex-wrap: wrap-reverse;
         justify-content: center;
 
         .presentacion {
-            color: $color-fondo;
+            color: $ppal-color;
             padding: 3%;
             align-items: center;
             text-align: justify;
@@ -25,7 +25,6 @@
                 height: 80%;
                 width: 300px;
                 box-shadow: 3px 3px 4px $box-shadow-color;
-                border-radius: 50%;
             }
 
         }
@@ -37,6 +36,9 @@
         padding: 5%;
 
         .row {
+            &:hover{
+                zoom: 103%;
+            }
             .col {
                 .card-title {
                     text-align: center;
@@ -48,6 +50,9 @@
                     background-color: rgba(221, 191, 195, 1.00);
                     text-align: center;
                     font-weight: bolder;
+                    &:hover{
+                        font-weight: 800;
+                    }
                 }
 
             }
