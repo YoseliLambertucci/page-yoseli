@@ -64,6 +64,7 @@ h6 {
 
 header .borde-none {
   border: 2px solid white;
+  background-color: rgb(20, 20, 20);
 }
 header .colort-blanco {
   color: #f9f9f9;
