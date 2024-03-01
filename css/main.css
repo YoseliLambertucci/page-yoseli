@@ -63,7 +63,7 @@ h6 {
 }
 
 header .borde-none {
-  border: none;
+  border: 2px solid white;
 }
 header .colort-blanco {
   color: #f9f9f9;
@@ -122,6 +122,7 @@ header .bg-yoseli .navbar-collapse .navbar-nav li a {
 }
 .main-index .servicios .row:hover {
   zoom: 103%;
+  transition: 4s;
 }
 .main-index .servicios .row .col .card-title {
   text-align: center;
@@ -149,6 +150,9 @@ header .bg-yoseli .navbar-collapse .navbar-nav li a {
   box-shadow: 5px 5px 4px rgba(15, 15, 15, 0.1);
   margin: 3%;
   padding: 0.5%;
+}
+.main-clientes .gralart .pading img {
+  height: 155px;
 }
 .main-clientes .gralart .pading:hover {
   animation-name: efecto-tres;
@@ -206,10 +210,6 @@ header .bg-yoseli .navbar-collapse .navbar-nav li a {
 .main-contacto .contacto .div-formulario form .boton {
   font-size: larger;
   background-color: rgb(250, 219, 223);
-  animation-name: efecto-uno;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in;
-  animation-duration: 2s;
 }
 .main-contacto .contacto .tarjeta-personal {
   display: flex;

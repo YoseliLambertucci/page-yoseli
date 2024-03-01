@@ -1,36 +1,40 @@
 header {
     .borde-none {
-        border: none;
+        border: 2px solid white;
     }
-    .colort-blanco{
+
+    .colort-blanco {
         color: $color-fondo;
     }
 
     .bg-yoseli {
-        h1{
-            color: $bg-gris-oscuro;;
+        h1 {
+            color: $bg-gris-oscuro;
         }
+
         background-color: $bg-gris-oscuro;
         display: flex;
         align-items: end;
-        .img-logo{
+
+        .img-logo {
             width: 10%;
             height: 10%;
             border-radius: 50%;
             border: 2px solid white;
         }
+
         .navbar-collapse {
             .navbar-nav {
                 flex-basis: 100%;
                 justify-content: end;
                 gap: 2%;
                 font-weight: bolder;
-                li{
-                    a{
+
+                li {
+                    a {
                         color: $color-fondo;
                     }
                 }
-
             }
         }
     }

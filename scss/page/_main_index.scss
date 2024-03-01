@@ -38,6 +38,7 @@
         .row {
             &:hover{
                 zoom: 103%;
+                transition: 4s;
             }
             .col {
                 .card-title {
